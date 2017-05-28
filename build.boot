@@ -10,7 +10,9 @@
                  [adzerk/boot-cljs-repl "0.3.3"]
                  [com.cemerick/piggieback "0.2.1"]
                  [weasel "0.7.0"]
-                 [org.clojure/tools.nrepl "0.2.12"]])
+                 [org.clojure/tools.nrepl "0.2.12"]
+
+                 [org.omcljs/om "1.0.0-alpha34"]])
 
 (require '[adzerk.boot-cljs :refer [cljs]]
          '[pandeiro.boot-http :refer [serve]]
